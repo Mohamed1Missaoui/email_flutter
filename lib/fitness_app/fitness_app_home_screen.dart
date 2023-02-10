@@ -1,4 +1,4 @@
-import 'package:liste/fitness_app/models/tabIcon_data.dart';
+//import 'package:liste/fitness_app/models/tabIcon_data.dart';
 import 'package:liste/fitness_app/training/training_screen.dart';
 import 'package:flutter/material.dart';
 import 'bottom_navigation_view/bottom_bar_view.dart';
