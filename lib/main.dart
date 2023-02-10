@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       routes: AppRoutes.define(),
       home: const OpeningView(),
     );}
-}
+}//hello word
 
 
 
