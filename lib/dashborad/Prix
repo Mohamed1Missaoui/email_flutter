@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+class Dialogue extends StatelessWidget {
+late String firstName,lastName,Typess;
+
+Dialogue({required this.firstName,required this.lastName,required this.Typess});
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.red,
+      appBar: AppBar(title: (Text('Boite de dialogue',style: TextStyle(fontSize: 25,color: Colors.red),)),),
+      body: Form(
+        child: Column(
+        children: [
+         Text("firstname : ${firstName}",style: TextStyle(fontSize: 30,color: Colors.yellowAccent),),
+          Text("lastname : ${lastName}",style: TextStyle(fontSize: 30,color: Colors.yellowAccent),),
+          Text("types d'inscription : ${Typess}",style: TextStyle(fontSize: 25,color: Colors.yellowAccent),),
+          Text("frais d'inscription est 350DT:${Typess=="Tunise"}" ,style: TextStyle(fontSize: 22,color: Colors.yellowAccent),),
+          Text("frais d'inscription est 350DT:${Typess=="Etranger"} ",style: TextStyle(fontSize: 22,color: Colors.yellowAccent),),
+
+        ],
+      ),
+       
+      ),
+    );
+
+  }
+
+
+}
+
